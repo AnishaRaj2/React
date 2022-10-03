@@ -8,8 +8,14 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .logo1 {
     animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: Logo1-spin infinite 20s linear;
   }
 }
 
@@ -28,6 +34,21 @@
   color: #ea0a0a;
 }
 
+.logo1{
+  max-width: 130px;
+  max-height: 130px;
+  border-radius: 65px;
+}
+
+@keyframes Logo1-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .flex{
   display: flex ;
   list-style: none;
@@ -37,6 +58,21 @@
 .flex li{
   padding: 20px;
   margin: 10px
+}
+
+.round{
+  padding: 5rem;
+  background-color: greenyellow;
+  border-radius: 10rem;
+  width: 10rem;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .round {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
 @keyframes App-logo-spin {
