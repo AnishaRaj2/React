@@ -1,4 +1,4 @@
-export default function Button (props) {
+export default function Testcar (props) {
     return (
         <div>
             <h1>Hello, this is a test!</h1>

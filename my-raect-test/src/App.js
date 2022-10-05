@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Logo1 from './Logo1';
 import Navbar from './Navbar';
-import Button from './components/Button';
+import Testcar from './components/Testcar';
 
 function App() {
   // const testColor = "red";
@@ -14,8 +14,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
 
-        {/* <Button color={testColor} brand={testBrand} /> */}
-        <Button testCar = {carInfo} />
+        {/* <Testcar color={testColor} brand={testBrand} /> */}
+        <Testcar testCar = {carInfo} />
 
         <Logo1/>
           <div className="round">
