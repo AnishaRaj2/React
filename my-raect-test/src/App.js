@@ -3,11 +3,13 @@ import './App.css';
 import Logo1 from './Logo1';
 import Navbar from './Navbar';
 import Testcar from './components/Testcar';
+import Profile from './components/Profile';
+import Avatar from './components/Avatar';
 
 function App() {
   // const testColor = "red";
   // const testBrand = "BMW";
-    const carInfo = {testColor:'red', testBrand:'BMW' };
+    // const carInfo = {testColor:'red', testBrand:'BMW' };
 
   return (
     <div className="App">
@@ -15,8 +17,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
 
         {/* <Testcar color={testColor} brand={testBrand} /> */}
-        <Testcar testCar = {carInfo} />
+        {/* <Testcar testCar = {carInfo} /> */}
 
+        <Profile />
+        
         <Logo1/>
           <div className="round">
             <div>
