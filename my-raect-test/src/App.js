@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import Testcar from './components/Testcar';
 import Profile from './components/Profile';
 import Avatar from './components/Avatar';
+import Button from './components/Button';
 
 function App() {
   // const testColor = "red";
@@ -20,6 +21,8 @@ function App() {
         {/* <Testcar testCar = {carInfo} /> */}
 
         <Profile />
+
+        <Button />
         
         <Logo1/>
           <div className="round">
