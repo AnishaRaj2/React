@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Logo1 from './Logo1';
 import Navbar from './Navbar';
@@ -6,20 +5,29 @@ import Testcar from './components/Testcar';
 import Profile from './components/Profile';
 import Avatar from './components/Avatar';
 import Button from './components/Button';
+import BasicExample from './components/Cardtest';
+import Math from './components/Math';
 
 function App() {
   // const testColor = "red";
   // const testBrand = "BMW";
-    // const carInfo = {testColor:'red', testBrand:'BMW' };
+    const carInfo = {testColor:'red', testBrand:'BMW' };
 
   return (
+    <>
+    <div>
+      {/* <BasicExample /> */}
+
+    </div>
+
+
+
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
 
         {/* <Testcar color={testColor} brand={testBrand} /> */}
-        {/* <Testcar testCar = {carInfo} /> */}
-
+        <Testcar testCar = {carInfo} />
+        <Math />
         <Profile />
 
         <Button />
@@ -51,6 +59,7 @@ function App() {
       </header>
      
     </div>
+    </>
   );
 }
 
