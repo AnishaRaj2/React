@@ -10,12 +10,21 @@
 //     );
 // }
 
-export default function Button () {
-  const shoot = () => {
-    alert("Great Shot!");
-  }
+// export default function Button () {
+//   const shoot = () => {
+//     alert("Great Shot!");
+//   }
 
-  return (
-    <button onClick={shoot}>Take the shot!</button>
+//   return (
+//     <button onClick={shoot}>Take the shot!</button>
+//   );
+// }
+
+export default function Button ({message, children}) {
+  return(
+    <button onClick = {() => alert(message)} > 
+      {children}
+    </button>
+
   );
 }

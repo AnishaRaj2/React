@@ -1,12 +1,18 @@
 import {products} from './Data';
 
 export default function Math() {
-    const Arr1 = products.map(x => <i>{x.title}</i>);
+    const Arr1 = products.map(x => <li>{x.title}</li>);
 
     return (
         <>
-         {Arr1} 
+            <header>
+                <p> Fruits and Veggies</p>
+
+            </header>
+        
+            {Arr1}
          </>
     );
 
 }
+

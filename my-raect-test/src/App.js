@@ -28,9 +28,12 @@ function App() {
         {/* <Testcar color={testColor} brand={testBrand} /> */}
         <Testcar testCar = {carInfo} />
         <Math />
+        <Button message="Hello!! How are you?"> Hello </Button>
+         <Button message="Hello!! I am here for you!">  Hello2 </Button>
+
         <Profile />
 
-        <Button />
+        <Button message="Hello! I am a button"> Press me </Button>
         
         <Logo1/>
           <div className="round">
